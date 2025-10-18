@@ -15,7 +15,7 @@ public class UnicodeLib {
 
     @SidedProxy(clientSide = "unicode.proxy.ClientProxy", serverSide = "unicode.proxy.CommonProxy")
     public static IProxy proxy;
-
+//tester
 	@Init
     public void init(FMLInitializationEvent event) {
         proxy.init(event);
